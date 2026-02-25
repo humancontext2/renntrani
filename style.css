@@ -15,6 +15,25 @@ p {
   font-size: 18px;
   margin-bottom: 30px;
 }
+ 
+.press-button {
+  display: inline-block;
+  padding: 12px 20px;
+  background: black;
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  transition: 0.2s ease;
+}
+
+.press-button:hover {
+  background: white;
+  color: black;
+}
+
+
 
 /* Vintage 90s button */
 .pdf-button a {
