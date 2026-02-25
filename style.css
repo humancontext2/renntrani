@@ -15,8 +15,8 @@ p {
   font-size: 18px;
   margin-bottom: 30px;
 }
-.Writing-icon {
-  width: 80px;
+.writing-icon {
+  width: 50px;
   height: auto;
   filter: brightness(0);
   transition: opacity 0.2s ease;
