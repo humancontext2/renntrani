@@ -1,6 +1,6 @@
 body {
   font-family: 'Times New Roman', monospace;
-  background-color: #FF2400;
+  background-color: #1C1C1C;
   color: #000;
   text-align: center;
   padding: 50px;
@@ -17,7 +17,7 @@ body {
 .video-icon {
   width: 80px;   /* make it bigger */
   cursor: pointer;
-  filter: greyscale(100%) brightness(0) 
+   brightness(0) invert (1);
 
 
 .video-icon:hover {
@@ -33,7 +33,7 @@ p {
 .writing-icon {
   width: 80px;
   height: auto;
-  filter: brightness(0);
+  filter: brightness(0) invert (1);
   transition: opacity 0.2s ease;
 }
 
