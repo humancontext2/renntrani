@@ -15,7 +15,7 @@ body {
 
 /* BIGGER CAMERA ICON */
 .video-icon {
-  width: 300px;   /* make it bigger */
+  width: 200px;   /* make it bigger */
   cursor: pointer;
   filter: brightness(0) invert(1);
   transition: transform 0.2s ease;
