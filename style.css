@@ -20,14 +20,15 @@ body {
   filter: greyscale(100%) brightness(0) 
 
 
-
 .video-icon:hover {
   transform: scale(1.05);
+  opacity: 0.8;
+}
 }
 
 p {
   font-size: 18px;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
 }
 .writing-icon {
   width: 80px;
