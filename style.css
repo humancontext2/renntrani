@@ -5,7 +5,49 @@ body {
   text-align: center;
   padding: 50px;
 }
+/* BUTTON LAYOUT */
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
 
+/* ICONS */
+.icon {
+  width: 100px;
+  height: auto;
+  cursor: pointer;
+  filter: brightness(0) invert(1); /* makes icons white */
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.icon:hover {
+  transform: scale(1.05);
+  opacity: 0.8;
+}
+
+/* VIDEO */
+.video-container {
+  display: none;
+  margin-top: 40px;
+}
+
+/* RESPONSIVE VIDEO */
+.video-wrapper {
+  position: relative;
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding-bottom: 56.25%;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
 h1 {
   font-size: 32px;
   margin-bottom: 20px;
