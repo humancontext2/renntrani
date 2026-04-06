@@ -10,7 +10,7 @@ body {
   display: flex;
   flex-direction: column;   /* THIS stacks them */
   align-items: center;
-  gap: 30px;
+  gap: 50px;
 }
 
 /* BIGGER CAMERA ICON */
