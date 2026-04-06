@@ -15,10 +15,10 @@ body {
 
 /* BIGGER CAMERA ICON */
 .video-icon {
-  width: 160px;   /* make it bigger */
+  width: 80px;   /* make it bigger */
   cursor: pointer;
   filter: greyscale(100%) brightness(0) 
-  transition: opacity 0.2s ease;
+
 
 
 .video-icon:hover {
@@ -27,7 +27,7 @@ body {
 
 p {
   font-size: 18px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 .writing-icon {
   width: 80px;
