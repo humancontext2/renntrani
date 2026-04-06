@@ -9,6 +9,50 @@
   
   <h1>Renn Trani</h1>
 
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Film Site</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- BUTTONS -->
+  <div class="button-container">
+
+    <!-- VIDEO BUTTON -->
+    <img src="FILM-SHORT.svg" alt="Watch" class="icon" onclick="toggleVideo()">
+
+  <!-- VIDEO PLAYER -->
+  <div id="video-container" class="video-container">
+    <div class="video-wrapper">
+      <iframe 
+        src="https://www.youtube.com/embed/v1nErHV6xzU"
+        frameborder="0"
+        allow="autoplay; encrypted-media"
+        allowfullscreen>
+      </iframe>
+    </div>
+  </div>
+
+  <!-- SCRIPT -->
+  <script>
+    function toggleVideo() {
+      const video = document.getElementById("video-container");
+
+      if (video.style.display === "none" || video.style.display === "") {
+        video.style.display = "block";
+      } else {
+        video.style.display = "none";
+      }
+    }
+  </script>
+
+</body>
+</html>
+
   <link rel="stylesheet" href="style.css">
   
 <a href="InkMag.pdf" target="_blank">
